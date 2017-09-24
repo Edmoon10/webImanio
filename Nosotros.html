@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--ESTAS LÍNEAS SON NECESARIAS PARA UTILIZAR BOOTSTRAP-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--HASTA AQUI!!!!!-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.css" integrity="sha256-g/Yx9XZ2VfCMlHajAkDvUaloh0BijzCWNMAr7krsZwk=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.min.css" integrity="sha256-qxOBz0Std9dtkon+cnUi5A7HTHO0CLbp9DnkxsJuIXc=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="shortcut icon" href="images/logoicon.ico" />
+
+	<title>IMANIO</title>
+</head>
+<body>
+	<!--***************************************************************************************************************************************************-->
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="index.html"><img alt="Brand" src="images/19.png" width="35" height="35" class="d-inline-block align-top" alt=""></a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html">Inicio</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="index.html#appsMoviles">Aplicaciones móviles</a></li>
+							<li><a href="index.html#appsWeb">Aplicaciones web</a></li>
+							<li><a href="index.html#arquitectura">Arquitectura de sistemas</a></li>
+							<li><a href="index.html#iot">IOT</a></li>
+							<li><a href="index.html#robotica">Robótica móvil</a></li>
+							<li><a href="index.html#automatizacion">Automatización</a></li>
+						</ul>
+					</li>
+					<li><a href="construccion.html">Portafolio</a></li>
+					<li><a href="http://www.imanioshop.com">Tienda</a></li>
+					<li><a href="index.html#contacto">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<br><br><br><br><br><br><br><br>
+	<div class="container-fluid">
+		<div class="row">
+			<div style="color: white;" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<h1>ACERCA DE NOSOTROS</h1>
+				<h4>Somos una empresa impulsada por la integración tecnológica, calidad y servicio para la creación de proyectos robustos y multidisciplinarios.</h4>
+				<br>
+				<h1>MISIÓN</h1>
+				<h4>Ser una empresa conocida por su innovación, creatividad y calidad. Desarrollando proyectos multidisciplinarios que integran los mejores procesos de diseño e ingeniería para satisfacer las necesidades de nuestros clientes​.</h4>
+				<br>
+				<h1>VISIÓN</h1>
+				<h4>Impulsar ideas para el futuro.</h4>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<img src="images/Nosotros.jpg" width="100%">
+			</div>
+		</div>
+		<div class="row">
+			<br><br><br><br>
+			<div id="preFooter" name="preFooter" class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">		
+				<ol class="breadcrumb center">
+					<li><img src="images/NombreImanio.jpg" width="100" height="20" hspace="30"></li>
+					<li><a href="index.html#inicio">Inicio</a></li>
+					<li><a href="index.html#appsMoviles">Servicios</a></li>
+					<li><a href="construccion.html">Portafolio</a></li>
+					<li><a href="http://www.imanioshop.com">Tienda</a></li>
+					<li><a href="#">Nosotros</a></li>
+					<li><a href="Tecnologia.html">Tecnología</a></li>
+					<li><a href="support/aviso_privacidad.pdf">Ayuda a Startups</a></li>
+				</ol>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!--***************************************************************************************************************************************************-->
+	<!--AQUI EMPIEZA LA ZONA DE SCRIPTS-->
+	<!--Esta es la de firebase-->
+	<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+	<!--ESTAS TAMBIÉN SON NECESARIAS PARA BOOTSTRAP-->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!--HASTA AQUI!!!!-->
+
+	<!--Para el slider -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.min.js" integrity="sha256-3nkG8q6ajh1K1fHC3hi142DykXlM5TA2xX3OzP/NNJM=" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.js" integrity="sha256-AnJXtWIZECApGO5Ak13+D9uH1Ea7RxE6/5bJyewjtbM=" crossorigin="anonymous"></script>
+
+	<script src="app.js"></script>
+
+</body>
+</html>

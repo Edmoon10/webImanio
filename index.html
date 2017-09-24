@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--ESTAS LÍNEAS SON NECESARIAS PARA UTILIZAR BOOTSTRAP-->
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these -->
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--HASTA AQUI!!!!!-->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.css" integrity="sha256-g/Yx9XZ2VfCMlHajAkDvUaloh0BijzCWNMAr7krsZwk=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.min.css" integrity="sha256-qxOBz0Std9dtkon+cnUi5A7HTHO0CLbp9DnkxsJuIXc=" crossorigin="anonymous" />
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="shortcut icon" href="images/logoicon.ico" />
+
+	<title>IMANIO</title>
+</head>
+<body>
+	<!--***************************************************************************************************************************************************-->
+
+<!--
+	<header id="header">
+		<nav>
+			<ul>
+				<img id="menu" src="images/banner_menu.png">
+				<li><a title="Contacto" href="#contacto">Contacto</a></li>
+				<li><a title="Tienda" href="#">Tienda</a></li>
+				<li><a title="Portafolio" href="#">Portafolio</a></li>
+				<li><a title="Servicios" href="#appsMoviles">Servicios</a></li>
+				<li><a title="Inicio" href="#inicio">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="#"><img alt="Brand" src="images/19.png" width="35" height="35" class="d-inline-block align-top" alt=""></a>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Inicio</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Servicios <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#appsMoviles">Aplicaciones móviles</a></li>
+						<li><a href="#appsWeb">Aplicaciones web</a></li>
+						<li><a href="#arquitectura">Arquitectura de sistemas</a></li>
+						<li><a href="#iot">IOT</a></li>
+						<li><a href="#robotica">Robótica móvil</a></li>
+						<li><a href="#automatizacion">Automatización</a></li>
+					</ul>
+				</li>
+				<li><a href="construccion.html">Portafolio</a></li>
+				<li><a href="http://www.imanioshop.com">Tienda</a></li>
+				<li><a href="#contacto">Contacto</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--MODAL
+    <div class="modal fade in" id="formSaludo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: block;">
+                <div class="modal-dialog">
+                     <div class="modal-content">
+                          <div class="modal-header">
+                              <h5>Prueba</h5>
+                              <img class="img-responsive center-block " src="Arduino.png">
+                          </div> 
+                          <div class="modal-body">
+                            <div class="fb-like" data-href="https://www.facebook.com/cloudsblacks" data-width="200" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>    </div> 
+                            <div class="modal-footer">
+
+                                  <a class="btn btn-link" data-dismiss="modal" style="font-size:15px;color:#808080;cursor: pointer;text-decoration: none;">已經讚了,请稍等...</a>
+                          </div>  
+                    </div>
+                </div>
+            </div>-->
+            <div class="container-fluid">
+            	<div id="inicio" name="inicio"  >
+            		<img src="images/INICIO.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="appsMoviles" name="appsMoviles" >
+            		<img src="images/APPS.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="appsWeb" name="appsWeb" >
+            		<img src="images/APPS_WEB.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="arquitectura" name="arquitectura" >
+            		<img src="images/ARQ_SISTEMAS.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="iot" name="iot" >
+            		<img src="images/IOT.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="robotica" name="robotica" >
+            		<img src="images/ROBO_MOVIL.jpg" class="img-responsive">
+            	</div>
+
+            	<div id="automatizacion" name="automatizacion" >
+            		<img src="images/AUTOMATIZACION.jpg" class="img-responsive">
+            	</div>
+	<!-- IDEA 1 Casi buena
+	<div id="mycarousel" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="images/contacto.jpg" alt="" class="img-responsive">
+				<div class="carousel-caption">
+					CONTACTO
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+	<!-- Ya casi salia
+	<div id="contacto" class="imageAndText">
+		<img src="images/contacto.jpg" class="align-center img-responsive">
+		<div class="col">
+			<div class="col-sm-4"><br><br>
+			<p id="contactoTitle">CONTACTO jdjilksdjflksdjflsdkjf lskdjflk sdjflksjd
+
+			askñldj
+
+			asñdkojlñalksd
+
+			ñaskjdlñkasjfñas
+			</p>
+			<p id="contactoText">Llena los campos indicados o escríbenos directamente a</p>
+			</div>
+		</div>
+	</div>
+-->
+
+<!--Sección de contacto-->
+
+<div class="row">
+	<div id="contacto" class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><br><br>
+		<h1 style="color: white; font-size: 45px; text-indent: 1cm;" >CONTACTO</h1>
+		<br>
+		<p style="color: white; text-indent: 1cm;font-size: 25px;">Correo electrónico:
+			<a style="color: orange">contacto@imanio.xyz</a><br><br>
+		</p>
+		<p style="color: white; text-indent: 1cm;font-size: 25px;">Teléfono: 
+			<a style="color: orange">+52 55-6820-5527</a><br><br>
+		</p>
+		<p style="color: white; text-indent: 1cm;font-size: 25px;">Atención al cliente: 
+			<a style="color: orange">+52 55-1881-2650</a><br><br>
+		</p>
+	</div>
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><br>
+		<img src="images/LogoSF.png" width="300" height="300">
+		<p style="text-align: center; color: white;">Paseo de Los Tamarindos 400  Torre B<br>Piso 6 Bosques de las Lomas<br>05120 MX</p>
+	</div>
+</div>
+
+<!--Sección Prefooter-->
+<div class="row">
+	<br><br><br><br>
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<img src="images/19.png" width="100" height="100"><br><br>
+		<div class="buttonHolder">
+			<a href="Nosotros.html" class="btn">Nosotros</a><br><br>
+		</div>
+		<p style="text-align: center; color: white">Conoce nuestra misión y visión</p>
+	</div>
+
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<img src="images/20.png" width="50" height="100"><br><br>
+		<div class="buttonHolder">
+			<a href="Tecnologia.html" class="btn">Tecnología</a><br><br>
+		</div>
+		<p style="text-align: center; color: white">Lo que ocupamos para nuestros proyectos</p>
+	</div>
+
+	<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+		<img src="images/21.png" width="60" height="100"><br><br>
+		<div class="buttonHolder">
+			<a href="support/aviso_privacidad.pdf" class="btn">Aviso de privacidad</a><br><br>
+		</div>
+		<p style="text-align: center; color: white">Lee nuestro aviso de privacidad</p>
+	</div>
+</div>
+<br><br>
+<div id="preFooter" name="preFooter" class="col-xs-8 col-sm-8 col-md-8 col-lg-8 col-md-offset-2">
+	<ol class="breadcrumb center">
+		<li><img src="images/NombreImanio.jpg" width="100" height="20" hspace="30"></li>
+		<li><a href="#inicio">Inicio</a></li>
+		<li><a href="#appsMoviles">Servicios</a></li>
+		<li><a href="construccion.html">Portafolio</a></li>
+		<li><a href="http://www.imanioshop.com">Tienda</a></li>
+		<li><a href="Nosotros.html">Nosotros</a></li>
+		<li><a href="Tecnologia.html">Tecnología</a></li>
+		<li><a href="support/aviso_privacidad.pdf">Ayuda a Startups</a></li>
+	</ol>
+
+</div>
+</div>
+
+
+
+
+
+
+<!--***************************************************************************************************************************************************-->
+<!--AQUI EMPIEZA LA ZONA DE SCRIPTS-->
+<!--Esta es la de firebase-->
+<script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+<!--ESTAS TAMBIÉN SON NECESARIAS PARA BOOTSTRAP-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--HASTA AQUI!!!!-->
+
+<!--Para el slider -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.min.js" integrity="sha256-3nkG8q6ajh1K1fHC3hi142DykXlM5TA2xX3OzP/NNJM=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/bootstrap-slider.js" integrity="sha256-AnJXtWIZECApGO5Ak13+D9uH1Ea7RxE6/5bJyewjtbM=" crossorigin="anonymous"></script>
+
+<script src="app.js"></script>
+
+</body>
+</html>
